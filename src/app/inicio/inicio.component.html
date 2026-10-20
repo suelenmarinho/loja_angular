@@ -1,0 +1,47 @@
+<div class="container mt-4">
+
+  <h1 class="text-center">
+    Bem-vindo à Loja Gamer 🎮
+  </h1>
+
+  <p class="text-center">
+    Os melhores acessórios gamers estão aqui!
+  </p>
+
+  <div class="row mt-4">
+
+    <div class="col-md-4 mb-4"
+         *ngFor="let produto of produtos">
+
+      <div class="card h-100">
+
+        <img
+          [src]="produto.imagem"
+          [alt]="produto.nome"
+          class="card-img-top">
+
+        <div class="card-body">
+
+          <h5 class="card-title">
+            {{ produto.nome }}
+          </h5>
+
+          <p class="card-text">
+            {{ produto.preco | currency:'BRL' }}
+          </p>
+
+          <button
+            class="btn btn-primary"
+            (click)="mostrarProduto(produto)">
+            Comprar
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

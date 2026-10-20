@@ -1,0 +1,21 @@
+.espaco {
+  flex: 1 1 auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: inherit;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.link-menu:hover {
+  color: #3f51b5;
+}

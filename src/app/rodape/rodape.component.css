@@ -1,0 +1,16 @@
+.rodape {
+  background-color: #212529;
+  color: white;
+  padding: 30px 15px;
+  margin-top: 40px;
+}
+
+.rodape h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.rodape p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
